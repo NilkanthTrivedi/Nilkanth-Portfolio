@@ -33,7 +33,7 @@ export default function Navbar() {
     return (
         <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed z-50">
             <div>
-                <h1 className="text-5xl font-signature ml-3">Nilkanth</h1>
+                <h1 className="text-3xl ml-3 sm:text-5xl">Nilkanth Trivedi</h1>
             </div>
 
             {/* Here in tailwid is mobile first css */}
