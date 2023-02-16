@@ -5,7 +5,7 @@ export default function About() {
         <>
             <div
                 name="about"
-                className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+                className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pb-24"
             >
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-2">
@@ -14,7 +14,7 @@ export default function About() {
                         </p>
                     </div>
 
-                    <p className="text-xl mt-20">
+                    <p className="text-xl mt-10">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Eius, deserunt illum mollitia officiis qui
                         exercitationem perferendis neque quasi a recusandae

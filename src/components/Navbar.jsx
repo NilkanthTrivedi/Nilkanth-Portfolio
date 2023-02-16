@@ -31,7 +31,7 @@ export default function Navbar() {
         },
     ];
     return (
-        <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed z-50">
+        <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed z-50 ">
             <div>
                 <h1 className="ml-3 text-3xl">Nilkanth Trivedi</h1>
             </div>

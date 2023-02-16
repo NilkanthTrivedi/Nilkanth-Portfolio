@@ -65,7 +65,7 @@ export default function Experience() {
         <>
             <div
                 name="experience"
-                className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
+                className="w-full h-full bg-gradient-to-b from-gray-800 to-black  pb-24"
             >
                 <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                     <div>
