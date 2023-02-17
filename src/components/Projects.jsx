@@ -21,56 +21,56 @@ export default function Projects() {
             src: disneyClone,
             title: "Disney+ Clone",
             techStack: ["ReactJS", "Firebase"],
-            gitHref: "",
             sietUrl: "https://marketingage.netlify.app/",
+            gitHref: "",
         },
         {
             id: 2,
             src: lapinoz,
             title: "Lapinoz Pizza",
             techStack: ["ReactJS", "Styled-Components", "CSS"],
+            sietUrl: "https://www.google.com/",
             gitHref: "",
-            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 3,
             src: seven,
             title: "The Seven",
             techStack: ["HTMl", "CSS"],
-            gitHref: "",
             sietUrl: "https://marketingage.netlify.app/",
+            gitHref: "",
         },
         {
             id: 4,
             src: trekking,
             title: "Hiking And Treks",
             techStack: ["HTML", "CSS"],
-            gitHref: "",
             sietUrl: "https://marketingage.netlify.app/",
+            gitHref: "",
         },
         {
             id: 5,
             src: agency,
             title: "Marketing Agency",
             techStack: ["Html", "CSS", "Grid"],
+            sietUrl: "marketingage.netlify.app",
             gitHref: "",
-            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 6,
             src: institute,
             title: "Study Institute",
             techStack: ["HTML", "CSS", "Bootstrap5"],
-            gitHref: "",
             sietUrl: "https://marketingage.netlify.app/",
+            gitHref: "",
         },
         {
             id: 7,
             src: motivator,
             title: "Public Speaker",
             techStack: ["HTML", "CSS"],
-            gitHref: "",
             siteUrl: "https://marketingage.netlify.app/",
+            gitHref: "",
         },
     ];
     return (
@@ -124,12 +124,14 @@ export default function Projects() {
                                     <div className="flex p-2 py-3 text-center gap-2">
                                         <a
                                             href={siteUrl}
+                                            target="_blank"
                                             className="w-1/2 px-4 py-1 border bg-gray-200 text-black font-semibold rounded-lg cursor-pointer hover:bg-gray-400 duration-100"
                                         >
                                             Demo
                                         </a>
                                         <a
                                             href={gitHref}
+                                            target="_blank"
                                             className="w-1/2 px-4 py-1 bg-gray-700 rounded-lg cursor-pointer hover:bg-gray-600"
                                         >
                                             Code
