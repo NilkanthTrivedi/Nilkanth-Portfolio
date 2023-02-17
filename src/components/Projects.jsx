@@ -21,42 +21,56 @@ export default function Projects() {
             src: disneyClone,
             title: "Disney+ Clone",
             techStack: ["ReactJS", "Firebase"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 2,
             src: lapinoz,
             title: "Lapinoz Pizza",
             techStack: ["ReactJS", "Styled-Components", "CSS"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 3,
             src: seven,
             title: "The Seven",
             techStack: ["HTMl", "CSS"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 4,
             src: trekking,
             title: "Hiking And Treks",
             techStack: ["HTML", "CSS"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 5,
             src: agency,
             title: "Marketing Agency",
             techStack: ["Html", "CSS", "Grid"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 6,
             src: institute,
             title: "Study Institute",
             techStack: ["HTML", "CSS", "Bootstrap5"],
+            gitHref: "",
+            sietUrl: "https://marketingage.netlify.app/",
         },
         {
             id: 7,
             src: motivator,
             title: "Public Speaker",
             techStack: ["HTML", "CSS"],
+            gitHref: "",
+            siteUrl: "https://marketingage.netlify.app/",
         },
     ];
     return (
@@ -76,39 +90,54 @@ export default function Projects() {
                     </div>
 
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-12 sm:px-0">
-                        {projs.map(({ id, src, title, techStack }) => (
-                            <div
-                                key={id}
-                                className="shadow-md shadow-gray-600 rounded-lg text-center"
-                            >
-                                <div className="font-semibold py-1 overflow-hidden">
-                                    <p className="text-gray-300 py-2">
-                                        {title}
-                                    </p>
+                        {projs.map(
+                            ({
+                                id,
+                                src,
+                                title,
+                                techStack,
+                                gitHref,
+                                siteUrl,
+                            }) => (
+                                <div
+                                    key={id}
+                                    className="shadow-md shadow-gray-600 rounded-lg text-center"
+                                >
+                                    <div className="font-semibold py-1 overflow-hidden">
+                                        <p className="text-gray-300 py-2">
+                                            {title}
+                                        </p>
 
-                                    <img
-                                        src={src}
-                                        alt=""
-                                        className="rounded-md duration-200 hover:scale-110 object-cover w-full"
-                                    />
-                                    <div className="p-2">
-                                        <div className="flex flex-wrap py-1 gap-2 w-auto">
-                                            {techStack.map((item) => (
-                                                <Chip title={item} />
-                                            ))}
+                                        <img
+                                            src={src}
+                                            alt=""
+                                            className="rounded-md duration-200 hover:scale-110 object-cover w-full"
+                                        />
+                                        <div className="p-2">
+                                            <div className="flex flex-wrap py-1 gap-2 w-auto">
+                                                {techStack.map((item) => (
+                                                    <Chip title={item} />
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
+                                    <div className="flex p-2 py-3 text-center gap-2">
+                                        <a
+                                            href={siteUrl}
+                                            className="w-1/2 px-4 py-1 border bg-gray-200 text-black font-semibold rounded-lg cursor-pointer hover:bg-gray-400 duration-100"
+                                        >
+                                            Demo
+                                        </a>
+                                        <a
+                                            href={gitHref}
+                                            className="w-1/2 px-4 py-1 bg-gray-700 rounded-lg cursor-pointer hover:bg-gray-600"
+                                        >
+                                            Code
+                                        </a>
+                                    </div>
                                 </div>
-                                <div className="flex p-2 py-3 text-center gap-2">
-                                    <a className="w-1/2 px-4 py-1 border bg-gray-200 text-black font-semibold rounded-lg cursor-pointer hover:bg-gray-400 duration-100">
-                                        Demo
-                                    </a>
-                                    <a className="w-1/2 px-4 py-1 bg-gray-700 rounded-lg cursor-pointer hover:bg-gray-600">
-                                        Code
-                                    </a>
-                                </div>
-                            </div>
-                        ))}
+                            )
+                        )}
                     </div>
                 </div>
             </div>
