@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
     //
     const [nav, setNav] = useState(true);
-
     // For Navbar Links
     const links = [
         {

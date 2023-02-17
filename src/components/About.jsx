@@ -5,7 +5,7 @@ export default function About() {
         <>
             <div
                 name="about"
-                className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white pb-24"
+                className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white md:pt-16"
             >
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-2">

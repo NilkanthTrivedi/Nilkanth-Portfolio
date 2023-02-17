@@ -63,7 +63,7 @@ export default function Projects() {
         <>
             <div
                 name="projects"
-                className="w-full h-full bg-gradient-to-b from-black to-gray-800 text-white pb-24"
+                className="w-full h-full bg-gradient-to-b from-black to-gray-800 text-white md:pt-16"
             >
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                     <div className="pb-8">
