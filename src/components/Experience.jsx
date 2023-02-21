@@ -2,10 +2,12 @@ import React from "react";
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
+import bootStrap from "../assets/Bootstrap_logo.png";
 import javascript from "../assets/javascript.png";
+import jquery from "../assets/jquery-logo.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import redux from "../assets/redux.png";
+import git from "../assets/Git-logo.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -33,29 +35,42 @@ export default function Experience() {
         {
             id: 4,
             src: reactImage,
-            title: "React",
-            style: "shadow-blue-600",
+            title: "ReactJS",
+            style: "shadow-sky-600",
         },
         {
             id: 5,
-            src: tailwind,
-            title: "Tailwind",
-            style: "shadow-sky-400",
+            src: redux,
+            title: "Redux",
+            style: "shadow-purple-600",
         },
         {
             id: 6,
-            src: nextjs,
-            title: "Next JS",
-            style: "shadow-white",
+            src: jquery,
+            title: "jQuery",
+            style: "shadow-gray-400",
         },
         {
             id: 7,
-            src: graphql,
-            title: "GraphQL",
-            style: "shadow-pink-400",
+            src: bootStrap,
+            title: "Bootstrap",
+            style: "shadow-gray-400",
         },
+
         {
             id: 8,
+            src: tailwind,
+            title: "TailWaind",
+            style: "shadow-sky-400",
+        },
+        {
+            id: 9,
+            src: git,
+            title: "Git",
+            style: "shadow-orange-400",
+        },
+        {
+            id: 10,
             src: github,
             title: "GitHub",
             style: "shadow-gray-400",
@@ -77,7 +92,7 @@ export default function Experience() {
                         </p>
                     </div>
 
-                    <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+                    <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-12 text-center py-8 px-12 sm:px-0">
                         {techno.map(({ id, src, title, style }) => (
                             <div
                                 key={id}
