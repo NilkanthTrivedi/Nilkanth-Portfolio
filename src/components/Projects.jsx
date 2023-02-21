@@ -58,7 +58,6 @@ export default function Projects() {
             gitHref:
                 "https://github.com/NilkanthTrivedi/marketing-agency-template",
         },
-
         {
             id: 6,
             src: seven,
