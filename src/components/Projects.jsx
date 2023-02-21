@@ -34,11 +34,12 @@ export default function Projects() {
         },
         {
             id: 3,
-            src: seven,
-            title: "The Seven",
-            techStack: ["HTMl", "CSS"],
-            siteUrl: "https://the-seven-portfolio.netlify.app/",
-            gitHref: "https://github.com/NilkanthTrivedi/the-seven-portfolio",
+            src: institute,
+            title: "Study Institute",
+            techStack: ["HTML", "CSS", "Bootstrap5"],
+            siteUrl: "https://it-institute.netlify.app/",
+            gitHref:
+                "https://github.com/NilkanthTrivedi/it-institute-portfolio",
         },
         {
             id: 4,
@@ -57,14 +58,14 @@ export default function Projects() {
             gitHref:
                 "https://github.com/NilkanthTrivedi/marketing-agency-template",
         },
+
         {
             id: 6,
-            src: institute,
-            title: "Study Institute",
-            techStack: ["HTML", "CSS", "Bootstrap5"],
-            siteUrl: "https://it-institute.netlify.app/",
-            gitHref:
-                "https://github.com/NilkanthTrivedi/it-institute-portfolio",
+            src: seven,
+            title: "The Seven",
+            techStack: ["HTMl", "CSS"],
+            siteUrl: "https://the-seven-portfolio.netlify.app/",
+            gitHref: "https://github.com/NilkanthTrivedi/the-seven-portfolio",
         },
         {
             id: 7,
