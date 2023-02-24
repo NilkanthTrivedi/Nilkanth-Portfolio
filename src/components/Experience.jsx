@@ -89,7 +89,7 @@ export default function Experience() {
                         </p>
                     </div>
 
-                    <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-12 text-center py-8 px-12 sm:px-0">
+                    <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-12 text-center py-12 px-8 sm:px-0">
                         {techno.map(({ id, src, title, style }) => (
                             <div
                                 key={id}
