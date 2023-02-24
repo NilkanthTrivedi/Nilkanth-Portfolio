@@ -35,7 +35,7 @@ export default function Social() {
                     <HiOutlineMail size={30} />
                 </>
             ),
-            href: "mailto:foo@gmail.com",
+            href: "mailto:nilkanthtrivedi17@gmail.com",
         },
         {
             id: 4,
