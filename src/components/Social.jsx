@@ -45,7 +45,7 @@ export default function Social() {
                     <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/resume.pdf",
+            href: "/nilkanth-trivedi-resume.pdf",
             style: "rounded-br-md",
             download: true,
         },
