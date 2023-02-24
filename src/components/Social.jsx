@@ -14,7 +14,7 @@ export default function Social() {
                     <FaLinkedin size={30} />
                 </>
             ),
-            href: "www.linkedin.com/in/nilkanth-trivedi",
+            href: "https://www.linkedin.com/in/nilkanth-trivedi/",
             style: "rounded-tr-md",
         },
         {
