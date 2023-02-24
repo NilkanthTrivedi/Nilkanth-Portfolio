@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiMail, HiOutlineMail } from "react-icons/hi";
+import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 export default function Social() {
