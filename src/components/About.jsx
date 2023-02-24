@@ -15,26 +15,34 @@ export default function About() {
                     </div>
 
                     <p className="text-xl mt-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Eius, deserunt illum mollitia officiis qui
-                        exercitationem perferendis neque quasi a recusandae
-                        necessitatibus tempora iusto! Blanditiis error iste,
-                        totam fugiat recusandae rerum laborum perferendis
-                        molestiae aperiam asperiores nemo. Magni dolor maxime
-                        debitis vitae, eaque hic ab mollitia voluptatibus, a
-                        nostrum eveniet laborum!
+                        As a React JS developer, I have a strong understanding
+                        of front-end technologies and a passion for building
+                        intuitive and responsive user interfaces. With
+                        experience in JavaScript, HTML, and CSS, I am skilled at
+                        developing dynamic and interactive web applications
+                        using the React JS framework.
                     </p>
 
                     <br />
 
                     <p className="text-xl">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Laborum pariatur, vel similique sint, nobis
-                        aspernatur ut praesentium explicabo ipsam aliquid quasi
-                        laboriosam et culpa possimus repudiandae quisquam ullam
-                        maiores ab unde. Fugiat odio mollitia nemo alias.
-                        Commodi facilis atque nulla vero voluptatem explicabo.
-                        Quibusdam, magni quo! Eum cupiditate debitis labore.
+                        I have completed my web-development course from Tops
+                        Technologies Ahmedabad, and my internship at StackDot.
+                        Also, I have completed several online courses and
+                        projects to enhance my understanding of web development.
+                        I am comfortable working with modern development tools
+                        and practices, package managers (such as npm), and build
+                        tools (such as Webpack).
+                    </p>
+
+                    <br />
+
+                    <p className="text-xl">
+                        I am a quick learner and always seek new challenges and
+                        opportunities to grow and improve as a developer. I am
+                        eager to join a team of experienced professionals and
+                        bring my enthusiasm and potential to create creative and
+                        engaging web applications.
                     </p>
                 </div>
             </div>

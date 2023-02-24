@@ -87,9 +87,6 @@ export default function Projects() {
                         <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                             Projects
                         </p>
-                        <p className="py-6">
-                            Check out some of my work right here
-                        </p>
                     </div>
 
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12 px-12 sm:px-0">

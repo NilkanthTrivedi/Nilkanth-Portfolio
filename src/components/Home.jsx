@@ -17,13 +17,12 @@ export default function Home() {
                             I'm a Frontend Developer
                         </h2>
                         <p className="text-gray-500 py-4 max-w-md">
-                            I have 8 years of experience building and desgining
-                            software. Currently, I love to work on web
-                            application using technologies like React, Tailwind,
-                            Next JS and GraphQL.
+                            “Enthusiastic about building web applications and
+                            creating intuitive user experiences with strong web
+                            development fundamentals”
                         </p>
 
-                        <div>
+                        <div className="pt-6">
                             <Link
                                 to="projects"
                                 smooth
