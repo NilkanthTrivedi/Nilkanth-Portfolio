@@ -16,7 +16,7 @@ export default function Home() {
                         <h2 className="text-4xl sm:text-6xl font-bold text-white">
                             I'm a Frontend Developer
                         </h2>
-                        <p className="text-gray-300 py-4 max-w-md">
+                        <p className="text-gray-400 py-4 max-w-md">
                             “Enthusiastic about building web applications and
                             creating intuitive user experiences with strong web
                             development fundamentals”
