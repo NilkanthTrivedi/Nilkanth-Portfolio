@@ -6,7 +6,7 @@ import bootStrap from "../assets/Bootstrap_logo.png";
 import javascript from "../assets/javascript.png";
 import jquery from "../assets/jquery-logo.png";
 import reactImage from "../assets/react.png";
-import redux from "../assets/redux.png";
+// import redux from "../assets/redux.png";
 import git from "../assets/Git-logo.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
